@@ -75,14 +75,17 @@
   margin: 5px;
   border-radius: 17%;
   padding: 3px;
+  margin-bottom: 2px;
   
  }
 
  .mim{
   font-size: 17px;
+  margin-bottom: 2px;
  }
 
  .front-end{
+  margin-top: 2px;
   font-weight: bold;
   font-size: 38px;
  }
@@ -92,6 +95,27 @@
  }
 
 .ads{
+  margin-top: 5px;
   font-size: 13px;
-  font-weight: bold;
+  font-weight: normal;
+}
+
+/* icons*/
+.social-icons {
+  display: flex;
+  gap: 1rem; 
+  justify-content: center;
+}
+
+.social-icons a img {
+  margin-top: 15px;
+  width: 18px; 
+  height: 18px; 
+  object-fit: contain; 
+  transition: transform 0.3s ease, opacity 0.3s ease; 
+}
+
+.social-icons a img:hover {
+  transform: scale(1.1); 
+  opacity: 0.8; 
 }
