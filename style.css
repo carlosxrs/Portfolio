@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Estilo da Navbar */
+.navbar{
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+.navbar .logo{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar .logo .dev {
+  color: #940abd; 
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 50px;
+  
+}
+
+.nav-links li {
+  font-size: 1rem;
+  margin: 0px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: black;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #940abd; 
+}
+.btn-contato {
+  background-color: white;
+  color: #940abd;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.btn-contato:hover {
+  background-color: #760c9e; 
+  color: white;
+}
+
+/*inicio*/
+
+.inicio{
+  text-align: center;
+  margin-top: 170px;
+  font-size: 20px;
+}
+
+.ola{
+  background-color: #940abd;
+  color: white;
+  margin: 5px;
+  border-radius: 17%;
+  padding: 3px;
+  
+ }
+
+ .mim{
+  font-size: 17px;
+ }
+
+ .front-end{
+  font-weight: bold;
+  font-size: 38px;
+ }
+
+ .developer{
+  color: #940abd;
+ }
+
+.ads{
+  font-size: 13px;
+  font-weight: bold;
+}
