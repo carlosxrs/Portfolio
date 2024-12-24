@@ -8,7 +8,7 @@
 }
 
 body{
-  height: 200vh;
+  height: 400vh;
 }
 
 /* seta e scroll*/
@@ -21,14 +21,14 @@ body{
 }
 
 .scroll-down  {
-  color: #940abd; /* Cor da seta */
-  font-size: 1.3rem; /* Tamanho da seta */
-  text-decoration: none; /* Remove sublinhado */
+  color: #940abd; 
+  font-size: 1.3rem; 
+  text-decoration: none; 
   transition: transform 0.3s ease;
 }
 
 .scroll-down :hover {
-  transform: scale(1.2); /* Aumenta levemente a seta no hover */
+  transform: scale(1.2); 
 }
 
 
@@ -65,7 +65,7 @@ body{
 .nav-links a {
   text-decoration: none;
   color: black;
-  transition: color 0.3s ease;
+  
 }
 
 .nav-links a:hover {
@@ -78,7 +78,7 @@ body{
   padding: 0.5rem 1rem;
   border-radius: 5px;
   font-size: 1rem;
-  transition: background-color 0.3s ease;
+  transition: background-color 1.3s ease;
 }
 
 .btn-contato:hover {
@@ -90,7 +90,7 @@ body{
 
 .inicio{
   text-align: center;
-  margin-top: 170px;
+  margin-top: 150px;
   font-size: 20px;
 }
 
