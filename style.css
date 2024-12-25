@@ -5,10 +5,15 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
+    
+  }
+.container {
+  max-width: 100%; /* Limita a largura de elementos grandes */
+  overflow: hidden; /* Esconde conteúdo extra */
 }
-
 body{
   height: 400vh;
+  overflow-x: hidden; 
 }
 
 /* seta e scroll*/
