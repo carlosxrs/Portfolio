@@ -250,7 +250,7 @@ html{
   margin-left: 130px;
   padding: 20px;
   text-align: justify;
-  font-size: 15px;
+  font-size: 15.5px;
 }
 
 .texto h2{
@@ -260,7 +260,7 @@ html{
 .imagem1 {
   width: 220px; /* Tamanho da imagem */
   height: auto;
-  margin-right: 130px; /* Espaço entre a imagem e o texto */
+  margin-right: 155px; /* Espaço entre a imagem e o texto */
   border-radius: 6%; /* Arredonda as bordas da imagem */
   max-width: 100%
 }
