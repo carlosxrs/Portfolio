@@ -12,6 +12,10 @@ body {
   overflow-x: hidden;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 /* Geral */
 .container {
   max-width: 100%;
@@ -72,7 +76,7 @@ body {
 }
 
 /* Inicio */
-.inicio {
+#inicio {
   text-align: center;
   margin-top: 150px;
   font-size: 1.25rem;
@@ -115,8 +119,8 @@ body {
 
 .social-icons a img {
   margin-top: 15px;
-  width: 21px;
-  height: 21px;
+  width: 18px;
+  height: 18px;
   object-fit: contain;
   transition: transform 0.3s ease, opacity 0.3s ease;
 }
@@ -214,4 +218,67 @@ body {
     font-size: 0.8rem;
     padding: 0.5rem 0.8rem;
   }
+}
+
+/*Sobre-mim*/
+
+.sobre{
+  margin-top: 300px;
+  text-align: center;
+}
+.container{
+  text-align: center;
+  display: flex;
+  
+}
+
+.pequeno{
+  font-size: small;
+  font-size: 12px;
+}
+
+.sobre span{
+    font-weight: bold;
+    font-size: 41px;
+}
+
+.sobri{
+  color: #940abd;
+}
+
+.texto{
+  margin-left: 130px;
+  padding: 20px;
+  text-align: justify;
+  font-size: 15px;
+}
+
+.texto h2{
+  font-size: 30px;
+}
+
+.imagem1 {
+  width: 220px; /* Tamanho da imagem */
+  height: auto;
+  margin-right: 130px; /* Espaço entre a imagem e o texto */
+  border-radius: 6%; /* Arredonda as bordas da imagem */
+  max-width: 100%
+}
+
+.btn-sobre {
+  margin-top: 20px;
+  display: inline-block;
+  background-color: #940abd;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 50px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-sobre:hover {
+  background-color: #760c9e;
+  transform: scale(1.05);
 }
